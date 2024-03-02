@@ -1,0 +1,23 @@
+{
+    "search.exclude": {
+        "**/node_list": true
+    },
+    "search.useGlobalIgnoreFiles": true,
+    "search.useParentIgnoreFiles": true,
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "XAMPP",
+            "database": "DPW2_U2_A2_ENMM",
+            "username": "root",
+            "password": ""
+        }
+    ]
+}
