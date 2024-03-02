@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "UTF-8"/>
+        <meta http-equiv="X-UA-compatible" content = "IE-Edge"> 
+        <meta name="viewport" content ="width=divice-width, initial-scale=1.0 ">
+        <link href="https://fonts.googleapis.com/css?/Family=Tahoma" href="stylesheet">
+        <title>DPW2_U2_A2_IniciarSesión</title>
+        <link rel="stylesheet" href="Estilos.CSS" href="Login.php">
+    </head>
+    <body>  
+        <div class="Index"> 
+            <header class="header">
+                <nav class="nav"> 
+                    <a href="Index.html" class="nav-link">Inicio</a>
+                    <a href="Registrarse.html" class="nav-link">Registrarse</a>
+                    <a href="IniciarSesión.html" class="nav-link">Iniciar Sesión</a>
+                </nav>
+            </header>
+            <main class="IniciarSesión">
+              <div class="Columna1i">
+                <h1>***   INSTITUTO MÉXICO   ***<br><br>Iniciar Sesión<br><br></h1>
+              </div>
+              <div class="Columna2i">
+                <h2>Acceder con Usuario y Contraseña</h2><br><br>
+              </div>
+                <Section class = "form-main">
+                   <div class=" form-content">
+                     <div class = "box">  
+                       <form action = "Login.php" echo="?php" method ="post">
+                         <div class="input-box">
+                            <input type ="text" placeholder = "IdUsuario" class="input-control" name="IdUsuario"><br><br>  
+                         </div>
+                         <div class="input-box">
+                            <input type="password" placeholder = "Contraseña" class="input-control" name="Contrasena"><br><br>
+                         </div><br>
+                              <button type ="submit" class = "btn" name = Ingresar >Ingresar</button><br><br><br>
+                              <a href="OlvidasteContrasena.html" class="nav-link">Olvidaste tu Contraseña</a><br><br>
+                              <a href="CrearCuenta.html" class="nav-link">Crear Cuenta</a><br>
+                         </div>
+                       </form>
+                     </div>
+                   </div>
+                </Section>
+            </main>
+        </div>
+    </body>
+</html> 

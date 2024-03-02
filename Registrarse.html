@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "UTF-8">
+        <meta http-equiv="X-UA-compatible" content = "IE-Edge">
+        <meta name="viewport" content ="width=divice-width, initial-scale=1.0 ">
+        <link href="https://fonts.googleapis.com/css?/Family=Tahoma" href="stylesheet">
+        <title>DPW2_U2_A2_ENMM_Registrarse</title>
+        <link rel="stylesheet" href="Estilos.css" href="Registrarse.php">
+    </head>
+    <body>
+      <div class="Index">
+        <header class="header">
+            <nav class="nav"> 
+                <a href="Index.html" class="nav-link">Inicio</a>
+                <a href="Registrarse.html" class="nav-link">Registrarse</a>
+                <a href="IniciarSesión.html" class="nav-link">Iniciar Sesión</a>
+            </nav>
+        </header>
+        <main class="Registrarse">
+          <div class="Columna1r">
+        <h1>***   INSTITUTO MÉXICO   ***<br><br>Registro<br><br></h1>
+          </div>
+          <div class="Registro">
+            <h2>Ingrese los Siguentes Datos</h2>
+                <form action = "Registrarse.php" echo="?php" method ="post" class="form">
+                   <div class= "input-box">
+                    <table border="1">
+                      <tr>
+                        <td>IdUsuario: </td>
+                        <td><input type ="text" placeholder = "IdUsuario" class="input-control" name="IdUsuario"/></td>
+                      </tr>
+                        <tr>
+                          <td>Nombre: </td>
+                          <td><input type ="text" placeholder = "Nombre" class="input-control" name="Nombre" id="Nombre"/></td>
+                        </tr>
+                        <tr>
+                          <td>Apellido Paterno: </td>
+                          <td><input type ="text" placeholder = "ApellidoPaterno" class="input-control" name="ApellidoPaterno" id="ApellidoPaterno"/></td>
+                        </tr>
+                        <tr>
+                          <td>Apellido Materno: </td>
+                          <td><input type ="text" placeholder = "ApellidoMaterno" class="input-control" name="ApellidoMaterno" id="ApellidoMaterno"/></td>
+                        </tr>
+                        <tr>
+                            <td>Edad: </td>
+                            <td><input type ="number" placeholder = "Edad" class="input-control" name="Edad" id="Edad"/></td>
+                          </tr>
+                        <tr>
+                          <td>Género: </td>
+                          <td>
+                            <select class="input-control" name="Sexo" id="Sexo">
+                              <option>  Seleccione:  </option>
+                              <option value="M"> Hombre</option>
+                              <option value="F"> Mujer</option>
+                            </select>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Teléfono: </td>
+                          <td><input type ="text" placeholder = "Teléfono" class="input-control" name="Telefono"/></td>
+                        </tr>
+                        <tr>
+                          <td>Email: </td>
+                          <td><input type ="text" placeholder = "Email" class="input-control" name="Email"/></td>
+                        </tr>
+                        <tr>
+                          <td>Tipo de Usuario: </td>
+                          <td><input type ="text" placeholder = "TipoUsuario" class="input-control" name="TipoUsuario"/></td>
+                        </tr>
+                        <tr>
+                          <td>Contraseña: </td>
+                          <td><input type ="password" placeholder = "Contraseña" class="input-control" name="Contrasena"></td>
+                        </tr>
+                        <tr>
+                          <td>Confirmar Contraseña</td>
+                          <td><input type= "password" placeholder = "Confirmar" class="input-control" name="Confirmar"></td>
+                        </tr>
+                    </table>
+                  </div> 
+                  <div><br><br>
+                  <button name = "Registrar" class = "btn" type="submit" id="Registrar">Registrar</button>
+                  </div> 
+                </form>
+             </div>
+        </main>
+      </div>
+    </body>
+</html> 

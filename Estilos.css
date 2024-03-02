@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+ }
+ 
+ body{
+     background-color: rgb(239, 240, 245);
+     font-family: 'Tahoma';
+     text-decoration-color: darkgrey;
+     justify-content: center;
+     align-items: center;
+     overflow-x: hidden;  
+ }
+ .Index .header{
+    height: 7vw;
+    background: rgb(3, 143, 250);
+    color: azure; 
+    align-items: center;
+    margin: 1vw;
+    padding: 1vw;
+    display: flex;
+    grid-area: header;
+ }
+ .Index .header .nav .a{
+      display: flex;
+      color: azure; 
+      width: 100%;
+      margin-left: 1vw;
+      font-weight: 800;
+      padding: 1vw;
+   }
+
+   .Index .header .nav .a:hover{
+         color:rgb(0, 3, 12);
+     } 
+.IndexPF .header{
+    height: 7vw;
+    background: rgb(3, 143, 250);
+    color: azure; 
+    align-items: center;
+    margin: 1vw;
+    padding: 1vw;
+    display: flex;
+    grid-area: header;
+    }
+     .IndexPF .header .nav .a{
+          display: flex;
+          color: azure; 
+          width: 100%;
+          margin-left: 1vw;
+          font-weight: 800;
+          padding: 1vw;
+       }
+    
+       .IndexPF .header .nav .a:hover{
+             color:rgb(0, 3, 12);
+         }
+.IndexPDC .header{
+    height: 7vw;
+    background: rgb(3, 143, 250);
+    color: azure; 
+    align-items: center;
+    margin: 1vw;
+    padding: 1vw;
+    display: flex;
+    grid-area: header;
+        }
+         .IndexPDC .header .nav .a{
+              display: flex;
+              color: azure; 
+              width: 100%;
+              margin-left: 1vw;
+              font-weight: 800;
+              padding: 1vw;
+           }
+        
+           .IndexPDC .header .nav .a:hover{
+                 color:rgb(0, 3, 12);
+             }  
+                 
+
+     
+
+ 
+
+  
